@@ -4,7 +4,8 @@ Thanks for taking the time to contribute.
 
 ## Development setup
 
-Requires Node 18+ and pnpm.
+Requires Node 22+ and pnpm for development (the pinned pnpm toolchain needs
+Node 22.13+). The published CLI itself runs on Node 18+.
 
 ```bash
 pnpm install
