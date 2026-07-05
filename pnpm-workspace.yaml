@@ -1,0 +1,4 @@
+# esbuild is a transitive dependency of tsup/vitest and needs its build step;
+# approve it so pnpm runs it instead of erroring (ERR_PNPM_IGNORED_BUILDS) in CI.
+allowBuilds:
+  esbuild: true
